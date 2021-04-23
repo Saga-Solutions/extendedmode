@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#bankui {
+    opacity: 0;
+    transition: 0.5s ease-in-out opacity;
+}
+
+*:focus {
+    outline: none;
+}
+
+.close {
+    
+	
+    height: 25px;
+    width: 25px;
+    border: none;
+	border-radius:10px; 
+    background-color: #8b0000;
+    color: white;
+    transition: 0.4s ease-in-out background-color;
+}
+.closediv {
+	padding:4px;
+    text-align:right;
+}
+
+.close:hover {
+	background-color: rgba(38, 143, 58, 0.8);
+}
+
+.container {
+    display: block;
+    margin: auto;
+    text-align: center;
+	background: linear-gradient(to top right, #00ff00 0%, #39005f 100%);
+    width: 950px;
+    height: 390px;
+    border: 3px solid white;
+    margin-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 30%;
+    height: 340px !important;
+    text-align: left;
+    border-right: 2px solid rgba(210, 210, 210, 0.8);
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+}
+
+.logo {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(210, 210, 210, 0.8);
+}
+
+.account-info {
+    font-size: 12px;
+}
+
+.welcome {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+	color:white;
+	font-size:15px;
+}
+
+.info-label {
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+	
+    letter-spacing: -1.5px;
+    color: white;
+    text-align: center;
+}
+
+.blue-color {
+    color: #3a526c;
+}
+
+.red-color {
+    color: #a23935;
+}
+
+.balance, .creation {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.quick-msg {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+	color:white;
+}
+
+.btn-quick {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    transition: 0.2s ease-in-out all;
+}
+
+.label {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+	color: white;
+}
+
+.label-sm {
+    font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
+
+.m-top {
+    margin-top: 12px;
+}
+
+.m-top-med {
+    margin-top: 40px;
+}
+
+.m-top-big {
+    margin-top: 40px;
+}
+
+.m-top-bigger {
+    margin-top: 65px;
+}
+
+
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    border: 0px solid #000000;
+    margin: 5px 0;
+    padding: 5px;
+	border-radius: 5px;
+	
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    transition: 0.2s ease-in-out all;
+}
+
+.blue-btn {
+    background-color: #3a526c;
+    border: 1px solid #233344;
+}
+
+.red-btn {
+    background-color: #ee222e;
+    border: 1px solid #80121a;
+}
+
+.red-border {
+    border: 2px solid #ee222e;
+}
+
+.blue-border {
+    border: 2px solid #3a526c;
+}
+
+.btn:hover, .btn-quick:hover {
+    border: 3px solid #1ac6ff;
+}
+
+.red-btn:hover {
+    border: 3px solid #80121a;
+}
+
+.red-close {
+    background-color: #ee222e;
+}
+
+.blue-close {
+    background-color: #3a526c;
+}
+
+.column-2nd {
+    float: left;
+    width: 50%;
+}
+
+.row-2nd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
